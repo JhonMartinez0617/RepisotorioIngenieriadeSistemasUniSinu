@@ -1,0 +1,72 @@
+INICIO 
+
+Class Libreria 1
+
+//Funcion para generar una tabla de multiplicar
+
+var: num1, num2: numerico
+
+FUNCION TabladeMultiplicar: 
+
+Mostrar "Digita un numero"
+Leer num1;
+
+Mostrar "Digita la cantidad de multiplicaciones"
+Leer num2;
+
+i=1;
+PARA i DESDE 1 HASTA num2
+
+Mostrar num1+ "x" + i + "=" + num1 * i ;
+FIN PARA
+
+//Fin Funcion 
+
+// Función para determinar el tipo de triángulo dado sus lados
+
+var: lado1, lado2, lado3: numerico
+
+FUNCION TipoTriangulo():
+
+Mostrar "Digita el lado1"
+Leer lado1;
+
+Mostrar "Digita el lado2"
+Leer lado2;
+
+Mostrar "Digita el lado3"
+Leer lado3;
+
+SI lado1 = lado2 Y lado2 = lado3 ENTONCES:
+Mostrar "El triángulo es equilátero."
+
+SINO SI lado1 = lado2 O lado1 = lado3 O lado2 = lado3 ENTONCES:
+Mostrar "El triángulo es isceles."
+
+SINO:
+Mostrar "El triángulo es escaleno."
+
+FIN SI
+
+//Fin Funcion
+
+// Función para calcular el promedio de materias dado un arreglo de calificaciones
+var: notas, suma, promedio: numerico
+
+FUNCION PromedioMaterias():
+
+Mostrar "¿Cuantas notas son?"
+Leer notas ;
+
+Mostrar "Digita las notas"
+Leer suma+= ;
+ 
+promedio = suma / notas
+Mostrar "El promedio de materias es: " + promedio
+
+//Fin Funcion
+
+//Fin Clase Libreria1
+
+FIN 
+

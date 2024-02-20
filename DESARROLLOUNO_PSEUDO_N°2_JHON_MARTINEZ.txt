@@ -1,0 +1,35 @@
+INICIO 
+
+Class Libreria 2
+
+//Funcion para recibir los coeficientes del binomio
+var: a, b, Aelevado, Belevado, DosAB, VerticeX, VerticeY : numerico
+
+FUNCION Recibir: 
+
+Mostrar "Ingresa el coeficiente a"
+Leer a;
+Mostrar "Ingresa el coeficiente b"
+
+//Fin Funcion
+
+FUNCION Operartrinomio:
+
+Mostrar "El Binomio es: ("+a+"x + "+b+")^2"
+
+Aelevado= a*a
+DosAB= 2*a*b
+Belevado= b*b
+Mostrar "Trinomio Cuadrado Perfecto: ("+ Aelevado+ "x  + " + DosAB+ "x  + "+ Belevado+")"
+
+Mostrar "Trinomio Factorizado: (" + a + "x + " + b + ")(" + a + "x + " + b + ")"
+
+VerticeX= -b / (2 * a)
+VerticeY= Verticex* Verticex
+Mostrar "Este es el vertice del Trinomio: ("+ Verticex + ", " + Verticey + ")"
+
+//Fin Funcion 
+
+//Fin Clase Libreria2
+
+FIN 
